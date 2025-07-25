@@ -3,6 +3,71 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{FBA6F515-EEA9-4799-ABC1-F61C9E2475CC}">
+				<TypeInfo Item0="{0BEBB35E-A617-4B7B-8E41-AA8A56866A5D}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{135FB360-1B62-4148-A8D9-DF655BC9E81F}">
+						<TypeInfo Item0="{8F7E821C-2CB0-4215-80A3-F97F5D236483}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{333A9C53-9861-4EB4-AA69-769D7B453F0D}">
+								<Image FileName="-939042170" Left="0" Top="0" Right="1920" Bottom="60" />
+								<TypeInfo Item0="{805C6340-0608-4EC4-A66C-51592C082729}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{705225A0-F25A-4843-95CF-3EBD17D1031F}">
+										<Image FileName="-939042170" Left="629" Top="0" Right="1015" Bottom="60" />
+										<TypeInfo Item0="{591CB635-3777-49B6-A015-A748F8F01A80}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{F94469F7-CA9B-405A-A45A-0CC663374475}">
+												<Image FileName="-939042170" Left="629" Top="0" Right="1015" Bottom="60" />
+												<TypeInfo Item0="{591CB635-3777-49B6-A015-A748F8F01A80}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Applications en cours d’exécution" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{135FB360-1B62-4148-A8D9-DF655BC9E81F}">
+			<Child Name="wndShell_TrayWnd" Owner="{333A9C53-9861-4EB4-AA69-769D7B453F0D}">
+				<Child Name="ReBarWindow32" Owner="{705225A0-F25A-4843-95CF-3EBD17D1031F}">
+					<Child Name="MSTaskSwWClass" Owner="{F94469F7-CA9B-405A-A45A-0CC663374475}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>
