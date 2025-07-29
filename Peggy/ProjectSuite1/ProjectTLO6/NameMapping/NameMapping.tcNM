@@ -3,6 +3,568 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A2E59DE0-6A91-45D6-B21C-20AC5E3D723D}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{BD5AC373-E418-493D-8644-79EF7297318F}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{81137CE2-048C-45A7-9373-F2404C9BBCAF}">
+								<Image FileName="1041059202" Left="0" Top="0" Right="964" Bottom="868" />
+								<TypeInfo Item0="{02FB844B-FBC8-40CC-9293-EF71E02792E3}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageItAkademy" Key="{90E4BB35-E287-4C0E-93CE-671E98DF6045}">
+								<Image FileName="866099260" Left="8" Top="95" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{5CC8DC73-608B-415A-92A8-27978DA8F956}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.it-akademy.fr/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{823F339D-6C67-43E2-9C77-4609249E1560}">
+										<Image FileName="866099260" Left="8" Top="95" Right="1913" Bottom="95" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(., &quot;IT-Akademy : l&apos;école d&apos;informatique professionnalisante&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;shock-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDCouvrirLItAkademy" Key="{961C33F7-3338-48CB-BC32-9282EF544690}">
+										<Image FileName="866099260" Left="704" Top="157" Right="1624" Bottom="237" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &quot;DÉCOUVRIR L&apos;IT-AKADEMY&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div[3]//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkELearning" Key="{1A9345BD-7911-44E7-AE78-CF5C71E4B802}">
+										<Image FileName="866099260" Left="1409" Top="157" Right="1509" Bottom="237" />
+										<TypeInfo Item0="{D9C55C39-3299-472D-960C-540A49BA479D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;E-LEARNING&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/ul/li[4]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;navbar&apos;]//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeELearning" Key="{1AD21251-75DE-4156-92D2-29446A373C0A}">
+										<Image FileName="866099260" Left="1419" Top="187" Right="1499" Bottom="207" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;E-LEARNING&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span[contains(@class, &apos;black-75&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;e-learning-distanciel&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContactItAkademyFr" Key="{92C4E93E-C2BB-4E24-9A75-2999666188B0}">
+										<Image FileName="1344607063" Left="1191" Top="108" Right="1623" Bottom="144" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;contact@it-akademy.fr&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{B5504F09-266A-4E14-9C37-4CEB369FBAD7}">
+										<Image FileName="1344607063" Left="1531" Top="108" Right="1580" Bottom="144" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSuivreItAkademySurLinkedin" Key="{395793AF-3140-4950-8CE3-49FC45BD0CC2}">
+										<Image FileName="1344607063" Left="1536" Top="108" Right="1575" Bottom="144" />
+										<TypeInfo Item0="{D9C55C39-3299-472D-960C-540A49BA479D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDemoqa" Key="{0507360B-1779-48D9-A6FA-619ABDF7246A}">
+								<Image FileName="-1508129776" Left="8" Top="95" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{5CC8DC73-608B-415A-92A8-27978DA8F956}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demoqa.com/automation-practice-form" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelForms" Key="{54A02C3A-B292-4AA8-BC95-CF26D86BFD85}">
+										<Image FileName="-1508129776" Left="64" Top="332" Right="455" Bottom="412" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/span/div[contains(@class, &apos;header-wrapper&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePracticeForm" Key="{E8443826-735F-433F-93DF-A86C00DF6348}">
+										<Image FileName="-1508129776" Left="64" Top="412" Right="455" Bottom="476" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;Practice Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul[contains(@class, &apos;menu-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePracticeForm2" Key="{7A5F3407-CDCC-4629-A404-CF864E631F03}">
+										<Image FileName="-1508129776" Left="93" Top="432" Right="201" Bottom="456" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Practice Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul/li/span[contains(@class, &apos;text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul/li/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formUserform" Key="{4C1CDC50-3AC0-4F07-992B-C7B8B1B8F79E}">
+										<Image FileName="-122865978" Left="509" Top="312" Right="1412" Bottom="926" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstname" Key="{F52BAB70-14C7-4717-AC95-E97F6EA25E3D}">
+										<Image FileName="-122865978" Left="742" Top="312" Right="1023" Bottom="350" />
+										<TypeInfo Item0="{9C069559-9B76-4124-B303-2C804C80A27D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#firstName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastname" Key="{FDE34BB3-6274-47F4-822A-5C4C1DB75FF1}">
+										<Image FileName="1804323235" Left="1131" Top="312" Right="1412" Bottom="350" />
+										<TypeInfo Item0="{9C069559-9B76-4124-B303-2C804C80A27D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lastName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//div[4]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUseremail" Key="{CBBECE90-A42E-4FC7-956E-21DDC494D7C5}">
+										<Image FileName="1909955646" Left="742" Top="358" Right="1412" Bottom="396" />
+										<TypeInfo Item0="{9C069559-9B76-4124-B303-2C804C80A27D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userEmail-wrapper&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelFemale" Key="{EC30FB8E-6CC8-424D-A285-713BD7DDB059}">
+										<Image FileName="1977839335" Left="841" Top="404" Right="891" Bottom="428" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Female&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;genterWrapper&apos;]//div[2]/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;genterWrapper&apos;]//div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;genterWrapper&apos;]//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelReading" Key="{1B0DB4D4-5997-4E48-8D04-7ED6B669EB8A}">
+										<Image FileName="1977839335" Left="851" Top="574" Right="908" Bottom="598" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Reading&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;hobbiesWrapper&apos;]//div[2]/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]//div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]/div[2]/div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaCurrentaddress" Key="{CFBD92FF-BC05-471A-8C60-688AE6BCEE53}">
+										<Image FileName="1472912610" Left="742" Top="684" Right="1412" Bottom="818" />
+										<TypeInfo Item0="{3FFDA131-1D9B-4152-837D-6F7B59CB3291}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#currentAddress" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currentAddress-wrapper&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSelectState" Key="{42D25032-A3DE-4424-8286-EC861621771D}">
+										<Image FileName="1968359968" Left="743" Top="827" Right="985" Bottom="863" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;stateCity-wrapper&apos;]/div[2]//div[contains(@class, &apos;css-1hwfws3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{FE7D359E-923C-4316-A955-D328E2D568E7}">
+										<Image FileName="302093295" Left="990" Top="922" Right="1002" Bottom="929" />
+										<TypeInfo Item0="{33849C1A-CCBD-4E67-8D6B-25708AE70E81}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;state&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReactSelect3Option2" Key="{0571FBD0-3FB6-4DFE-810B-5AEE4741460F}">
+										<Image FileName="-1735392079" Left="734" Top="948" Right="1015" Bottom="988" />
+										<TypeInfo Item0="{33849C1A-CCBD-4E67-8D6B-25708AE70E81}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#react-select-3-option-2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Haryana&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-1n7v3ny-option&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{14E6E913-1689-4C6A-9CA3-219A636148E9}">
+										<Image FileName="-1969564411" Left="1297" Top="647" Right="1317" Bottom="667" />
+										<TypeInfo Item0="{33849C1A-CCBD-4E67-8D6B-25708AE70E81}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[3]//*[name()=&apos;svg&apos;][contains(@class, &apos;css-19bqh2r&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;city&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReactSelect4Option0" Key="{21C8BABB-F5E7-493E-AFCD-79C64BFBEA79}">
+										<Image FileName="1661550091" Left="1045" Top="688" Right="1326" Bottom="728" />
+										<TypeInfo Item0="{33849C1A-CCBD-4E67-8D6B-25708AE70E81}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#react-select-4-option-0" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Karnal&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-1n7v3ny-option&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSubmit" Key="{E6307C6A-AD82-4E9C-8682-1B2DA27BDBA5}">
+										<Image FileName="865853314" Left="1336" Top="708" Right="1412" Bottom="746" />
+										<TypeInfo Item0="{BF8246B9-8BB6-4995-BEA8-EDAC6F6B4FFB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#submit" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsernumber" Key="{63658D0D-9CA8-4796-858E-E93EC4696877}">
+										<Image FileName="1301572319" Left="742" Top="456" Right="1412" Bottom="494" />
+										<TypeInfo Item0="{9C069559-9B76-4124-B303-2C804C80A27D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userNumber" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userNumber-wrapper&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDemoqa2" Key="{A583A882-3AE3-4802-9F50-C92EDA0D8699}">
+								<Image FileName="-300151840" Left="8" Top="95" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{5CC8DC73-608B-415A-92A8-27978DA8F956}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demoqa.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{080ECB8D-9E3D-4141-AF41-0ED747FBC00A}">
+										<Image FileName="-300151840" Left="534" Top="657" Right="593" Bottom="723" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;g&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDemoqa3" Key="{45C72F48-220B-443A-8024-2293BE5386E8}">
+								<Image FileName="1499921006" Left="8" Top="95" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{5CC8DC73-608B-415A-92A8-27978DA8F956}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demoqa.com/forms" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodePracticeForm" Key="{9F1B917A-FB2F-4876-AFDF-7D1E21F53237}">
+										<Image FileName="1499921006" Left="64" Top="412" Right="458" Bottom="476" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;Practice Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul[contains(@class, &apos;menu-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeItem0" Key="{D5CF2945-67E5-4F6B-901C-491FFB9F51DA}">
+										<Image FileName="1499921006" Left="64" Top="412" Right="458" Bottom="476" />
+										<TypeInfo Item0="{5EA97320-A882-458B-A07D-6AD0AB94326F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Practice Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul/li[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{BD5AC373-E418-493D-8644-79EF7297318F}">
+			<Child Name="BrowserWindow" Owner="{81137CE2-048C-45A7-9373-F2404C9BBCAF}" />
+			<Child Name="pageItAkademy" Owner="{90E4BB35-E287-4C0E-93CE-671E98DF6045}">
+				<Child Name="header" Owner="{823F339D-6C67-43E2-9C77-4609249E1560}">
+					<Child Name="textnodeDCouvrirLItAkademy" Owner="{961C33F7-3338-48CB-BC32-9282EF544690}">
+						<Child Name="linkELearning" Owner="{1A9345BD-7911-44E7-AE78-CF5C71E4B802}">
+							<Child Name="textnodeELearning" Owner="{1AD21251-75DE-4156-92D2-29446A373C0A}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeContactItAkademyFr" Owner="{92C4E93E-C2BB-4E24-9A75-2999666188B0}">
+						<Child Name="textnode" Owner="{B5504F09-266A-4E14-9C37-4CEB369FBAD7}">
+							<Child Name="linkSuivreItAkademySurLinkedin" Owner="{395793AF-3140-4950-8CE3-49FC45BD0CC2}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageDemoqa" Owner="{0507360B-1779-48D9-A6FA-619ABDF7246A}">
+				<Child Name="panelForms" Owner="{54A02C3A-B292-4AA8-BC95-CF26D86BFD85}" />
+				<Child Name="textnodePracticeForm" Owner="{E8443826-735F-433F-93DF-A86C00DF6348}">
+					<Child Name="textnodePracticeForm2" Owner="{7A5F3407-CDCC-4629-A404-CF864E631F03}" />
+				</Child>
+				<Child Name="formUserform" Owner="{4C1CDC50-3AC0-4F07-992B-C7B8B1B8F79E}">
+					<Child Name="textboxFirstname" Owner="{F52BAB70-14C7-4717-AC95-E97F6EA25E3D}" />
+					<Child Name="textboxLastname" Owner="{FDE34BB3-6274-47F4-822A-5C4C1DB75FF1}" />
+					<Child Name="textboxUseremail" Owner="{CBBECE90-A42E-4FC7-956E-21DDC494D7C5}" />
+					<Child Name="labelFemale" Owner="{EC30FB8E-6CC8-424D-A285-713BD7DDB059}" />
+					<Child Name="labelReading" Owner="{1B0DB4D4-5997-4E48-8D04-7ED6B669EB8A}" />
+					<Child Name="textareaCurrentaddress" Owner="{CFBD92FF-BC05-471A-8C60-688AE6BCEE53}" />
+					<Child Name="panelSelectState" Owner="{42D25032-A3DE-4424-8286-EC861621771D}" />
+					<Child Name="textnode" Owner="{FE7D359E-923C-4316-A955-D328E2D568E7}" />
+					<Child Name="panelReactSelect3Option2" Owner="{0571FBD0-3FB6-4DFE-810B-5AEE4741460F}" />
+					<Child Name="vg" Owner="{14E6E913-1689-4C6A-9CA3-219A636148E9}" />
+					<Child Name="panelReactSelect4Option0" Owner="{21C8BABB-F5E7-493E-AFCD-79C64BFBEA79}" />
+					<Child Name="buttonSubmit" Owner="{E6307C6A-AD82-4E9C-8682-1B2DA27BDBA5}" />
+					<Child Name="textboxUsernumber" Owner="{63658D0D-9CA8-4796-858E-E93EC4696877}" />
+				</Child>
+			</Child>
+			<Child Name="pageDemoqa2" Owner="{A583A882-3AE3-4802-9F50-C92EDA0D8699}">
+				<Child Name="textnode" Owner="{080ECB8D-9E3D-4141-AF41-0ED747FBC00A}" />
+			</Child>
+			<Child Name="pageDemoqa3" Owner="{45C72F48-220B-443A-8024-2293BE5386E8}">
+				<Child Name="textnodePracticeForm" Owner="{9F1B917A-FB2F-4876-AFDF-7D1E21F53237}">
+					<Child Name="textnodeItem0" Owner="{D5CF2945-67E5-4F6B-901C-491FFB9F51DA}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>
