@@ -350,6 +350,42 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeContactItAkademyFr" Key="{33AB7EFD-4C3E-4DB1-BE09-9B7FA424E28F}">
+										<Image FileName="200232274" Left="1191" Top="142" Right="1623" Bottom="178" />
+										<TypeInfo Item0="{9012F685-C064-4172-A585-8F7786493098}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;contact@it-akademy.fr&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{902365E0-9943-467B-A3BA-D74B85E6721B}">
+										<Image FileName="200232274" Left="1531" Top="142" Right="1580" Bottom="178" />
+										<TypeInfo Item0="{9012F685-C064-4172-A585-8F7786493098}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSuivreItAkademySurLinkedin" Key="{E33BD896-7B02-419F-AB62-BBF88D3FD0C3}">
+										<Image FileName="200232274" Left="1536" Top="142" Right="1575" Bottom="178" />
+										<TypeInfo Item0="{E3AEE2DE-B0C1-4108-896A-25AC90E4D263}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageProcessusEtConditionsDAdmiss" Key="{E9563628-ADF7-4702-8F4D-F71A2B4F5C32}">
@@ -1487,6 +1523,11 @@
 						</Child>
 						<Child Name="textnodeAdmission" Owner="{7D0D5DDE-ECE7-4617-948D-2166DB364E54}">
 							<Child Name="textnodeAdmission2" Owner="{3D15DCC1-2A36-4CB4-92EA-3267B4365311}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeContactItAkademyFr" Owner="{33AB7EFD-4C3E-4DB1-BE09-9B7FA424E28F}">
+						<Child Name="textnode" Owner="{902365E0-9943-467B-A3BA-D74B85E6721B}">
+							<Child Name="linkSuivreItAkademySurLinkedin" Owner="{E33BD896-7B02-419F-AB62-BBF88D3FD0C3}" />
 						</Child>
 					</Child>
 				</Child>

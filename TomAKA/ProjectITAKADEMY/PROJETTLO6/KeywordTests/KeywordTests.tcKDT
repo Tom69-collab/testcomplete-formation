@@ -14,5 +14,6 @@
 			<child name="Exercice_8" key="{E5A3C153-F242-4FDC-BC1B-F8A3384F54D8}" path="Exercice_8.tcKDTest" />
 		</folder>
 		<child name="Exercice_01" key="{B01BF39E-42F3-42A1-8BE4-BA65FF5DFFFF}" path="Exercice_01.tcKDTest" />
+		<child name="Exercice_02" key="{D145CD9E-9540-4711-8A1A-7B30FBCC0C2E}" path="Exercice_02.tcKDTest" />
 	</children>
 </Root>
