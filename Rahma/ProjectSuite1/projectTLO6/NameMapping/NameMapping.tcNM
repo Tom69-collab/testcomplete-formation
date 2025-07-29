@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B4C5059D-9D39-4C37-83D4-ACAE644B1613}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{6C18ED34-A32F-4F4D-9FC8-33CA9F535DC9}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="Item" Key="{9601D313-8CE6-499A-AF31-0A8959F6A3DA}">
+								<TypeInfo Item0="{A02CDCE5-55AF-497E-BD4B-5130FF35AA63}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{3E77D4A1-C403-478E-84E0-E10B22AF3646}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{9BED277B-45AE-45EA-AE3A-7657C8EE2515}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{E6E17800-6DF8-46AE-AA16-F38DD00D7937}">
+										<TypeInfo Item0="{27CFAED0-2DFD-4253-B5F1-73614122F4CA}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{6C18ED34-A32F-4F4D-9FC8-33CA9F535DC9}">
+			<Child Name="Item" Owner="{9601D313-8CE6-499A-AF31-0A8959F6A3DA}" />
+		</Child>
+		<Child Name="explorer" Owner="{3E77D4A1-C403-478E-84E0-E10B22AF3646}">
+			<Child Name="wndShell_TrayWnd" Owner="{9BED277B-45AE-45EA-AE3A-7657C8EE2515}">
+				<Child Name="DesktopWindowXamlSource" Owner="{E6E17800-6DF8-46AE-AA16-F38DD00D7937}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
