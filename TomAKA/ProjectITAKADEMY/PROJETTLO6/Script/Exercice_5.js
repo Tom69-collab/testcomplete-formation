@@ -1,4 +1,4 @@
-﻿function Exercice_4_code()
+﻿function Exercice_4()
 {
   //Launches the specified browser and opens the specified URL in it.
   Browsers.Item(btChrome).Run("https://demoqa.com/");
@@ -7,11 +7,11 @@
   //Posts an information message to the test log.
   Log.Message("Tout est ok jusqu'ici", "");
   //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
-  Aliases.browser.pageDemoqa2.textnodePracticeForm.textnodeItem0.textnodePracticeForm2.Click();
+  Aliases.browser.pageDemoqa2.textnodePracticeForm.textnodeItem0.Bouton_formulaire.Click();
   //Enters text in the text box.
   Aliases.browser.pageDemoqa3.formUserform.textboxFirstname.SetText("Tom");
   //Enters text in the text box.
-  Aliases.browser.pageDemoqa3.formUserform.textboxLastname.SetText("AUVRAY");
+  Aliases.browser.pageDemoqa3.formUserform.textboxLastname.SetText("A");
   //Enters text in the text box.
   Aliases.browser.pageDemoqa3.formUserform.textboxUseremail.SetText("Tom@IT.com");
   //Simulates a left-button single click in a window or control as specified (relative position, shift keys).
@@ -36,4 +36,6 @@
   Aliases.browser.pageDemoqa3.formUserform.buttonSubmit.ClickButton();
   //Posts an information message to the test log.
   Log.Message("Le formulaire est bien ouvert!", "");
+  //Closes the specified Window object.
+  Aliases.browser.BrowserWindow.Close();
 }

@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0" />
+<Root signature="{F1D3EE30-C2A8-4AFF-801C-1D39E2C902F0}" version="15.0">
+	<Table Name="Classeur11">
+		<Source Object="C:\Users\thomas.auvray\Documents\Classeur1.xlsx">
+			<DataExtraction Type="ExcelTableSheet" SheetTitle="Feuil1" FirstRowIsHeader="True" />
+		</Source>
+		<Columns>
+			<Column IsKey="True" CompareStyle="Default">Nom</Column>
+			<Column IsKey="True" CompareStyle="Default">Email</Column>
+			<Column IsKey="True" CompareStyle="Default">Message</Column>
+		</Columns>
+		<Rows>
+			<Row>
+				<Cell Type="String">Alice</Cell>
+				<Cell Type="String">alice@test.com</Cell>
+				<Cell Type="String">Hello Alice</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Bob</Cell>
+				<Cell Type="String">bob@test.com</Cell>
+				<Cell Type="String">Hello Bob</Cell>
+			</Row>
+			<Row>
+				<Cell Type="String">Charlie</Cell>
+				<Cell Type="String">charlie@test.com</Cell>
+				<Cell Type="String">Hello Charlie</Cell>
+			</Row>
+		</Rows>
+	</Table>
+</Root>

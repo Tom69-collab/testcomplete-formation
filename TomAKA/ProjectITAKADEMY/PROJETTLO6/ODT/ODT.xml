@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root>
 	<classes />
-	<data />
+	<data>
+		<group checked="True" name="NewGroup">
+			<fields />
+			<methods />
+		</group>
+	</data>
 </Root>

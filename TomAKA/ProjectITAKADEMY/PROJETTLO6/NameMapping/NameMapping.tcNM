@@ -1378,6 +1378,75 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="POWERPNT" Key="{8B2DE77D-063D-4088-9641-87F920970F06}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="POWERPNT" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndPPTFrameClass" Key="{C1C08F53-821A-4C58-A486-876E05B6B41D}">
+								<Image FileName="602137980" Left="-9" Top="-9" Right="1927" Bottom="1039" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="PPTFrameClass" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MDIClient" Key="{0BC8CE52-E146-4839-8D58-F34CEA45D75F}">
+										<Image FileName="602137980" Left="-1" Top="22" Right="1919" Bottom="1009" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="MDIClient" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="wndmdiClass" Key="{D01177E3-3F62-43E6-B664-7C75139BEEDF}">
+												<Image FileName="602137980" Left="-10" Top="-16" Right="1928" Bottom="1018" />
+												<TypeInfo Item0="{D3E2F221-7C2A-414C-93D7-EDFB6C59C409}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="mdiClass" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{90F1CEE8-6A04-44DA-9C15-0E8EDE6CF250}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_SecondaryTrayWnd" Key="{218EF73F-57B2-47ED-8865-2AFD7E48F861}">
+								<Image FileName="-314154345" Left="0" Top="0" Right="1920" Bottom="48" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_SecondaryTrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{C695CC6B-2190-4193-AC0A-B4013E29F1F5}">
+										<Image FileName="-314154345" Left="0" Top="0" Right="1920" Bottom="48" />
+										<TypeInfo Item0="{45718C96-A91A-444B-9984-6896D9AEE127}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -1518,6 +1587,18 @@
 						<Child Name="textnodePracticeForm2" Owner="{889D331E-EE57-4028-B9B6-48D58F603489}" />
 					</Child>
 				</Child>
+			</Child>
+		</Child>
+		<Child Name="POWERPNT" Owner="{8B2DE77D-063D-4088-9641-87F920970F06}">
+			<Child Name="wndPPTFrameClass" Owner="{C1C08F53-821A-4C58-A486-876E05B6B41D}">
+				<Child Name="MDIClient" Owner="{0BC8CE52-E146-4839-8D58-F34CEA45D75F}">
+					<Child Name="wndmdiClass" Owner="{D01177E3-3F62-43E6-B664-7C75139BEEDF}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{90F1CEE8-6A04-44DA-9C15-0E8EDE6CF250}">
+			<Child Name="wndShell_SecondaryTrayWnd" Owner="{218EF73F-57B2-47ED-8865-2AFD7E48F861}">
+				<Child Name="DesktopWindowXamlSource" Owner="{C695CC6B-2190-4193-AC0A-B4013E29F1F5}" />
 			</Child>
 		</Child>
 	</LogicalNodes>

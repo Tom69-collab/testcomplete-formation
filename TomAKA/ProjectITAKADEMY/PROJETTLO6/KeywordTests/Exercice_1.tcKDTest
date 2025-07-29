@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{0C418CDD-8D41-4E4B-857F-4E12969115D2}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{72160D19-84F5-4750-A67B-3B5317193D26}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -10,7 +10,7 @@
 			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
 				<Data Description="Launches the specified browser and opens the specified URL in it." BrowserName="chrome">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://www.it-akademy.fr/" />
+						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="9" ValueValue="680074007400700073003A002F002F007700770077002E00690074002D0061006B006100640065006D0079002E00660072000D000A00" />
 						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
 					</Parameters>
 				</Data>
@@ -25,5 +25,5 @@
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{988C1D8C-292C-4D8A-9D6E-4BD0B455083E}" />
+	<Parameters Key="{AEE437F2-10CB-4DD6-8545-1D5FA5C8C4CC}" />
 </Root>
