@@ -31,6 +31,74 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="pageItAkademy" Key="{520827B1-52D8-4B96-8394-8FDAB3C1B4B2}">
+								<Image FileName="1356261413" Left="8" Top="95" Right="1928" Bottom="1040" />
+								<TypeInfo Item0="{00EE71E9-488A-4AE7-88C2-9E07B650378D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.it-akademy.fr/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{A7F7EE74-F05B-47E5-82D7-E5E80CE5CE80}">
+										<Image FileName="1356261413" Left="8" Top="95" Right="1913" Bottom="95" />
+										<TypeInfo Item0="{D7CAD485-958D-490F-9E29-425693B16E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(., &quot;IT-Akademy : l&apos;école d&apos;informatique professionnalisante&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;shock-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContactItAkademyFr" Key="{09C7283C-1CC7-4BD4-902A-E72F2079D9A0}">
+										<Image FileName="1356261413" Left="1191" Top="108" Right="1623" Bottom="144" />
+										<TypeInfo Item0="{D7CAD485-958D-490F-9E29-425693B16E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;contact@it-akademy.fr&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{B396E378-9D47-4AB1-A43B-B257E691A6B1}">
+										<Image FileName="1356261413" Left="1531" Top="108" Right="1580" Bottom="144" />
+										<TypeInfo Item0="{D7CAD485-958D-490F-9E29-425693B16E3D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSuivreItAkademySurLinkedin" Key="{45801A6D-D8C0-43D9-986B-B4CA5931BD32}">
+										<Image FileName="1356261413" Left="1536" Top="108" Right="1575" Bottom="144" />
+										<TypeInfo Item0="{74145FED-BC61-4E26-9ED3-019237221E33}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -40,6 +108,15 @@
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{DCFD6EF5-1F0A-4B5F-8897-9230C02F1ECF}">
 			<Child Name="BrowserWindow" Owner="{0D0F1F2B-B377-4D63-9133-04F7CC8192C0}" />
+			<Child Name="pageItAkademy" Owner="{520827B1-52D8-4B96-8394-8FDAB3C1B4B2}">
+				<Child Name="header" Owner="{A7F7EE74-F05B-47E5-82D7-E5E80CE5CE80}">
+					<Child Name="textnodeContactItAkademyFr" Owner="{09C7283C-1CC7-4BD4-902A-E72F2079D9A0}">
+						<Child Name="textnode" Owner="{B396E378-9D47-4AB1-A43B-B257E691A6B1}">
+							<Child Name="linkSuivreItAkademySurLinkedin" Owner="{45801A6D-D8C0-43D9-986B-B4CA5931BD32}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
