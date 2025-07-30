@@ -630,6 +630,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode" Key="{CC9584C3-B22E-4DD9-8F82-CE7384D6760E}">
+										<Image FileName="-209668250" Left="1289" Top="631" Right="1303" Bottom="639" />
+										<TypeInfo Item0="{6821AAB3-A537-4301-9291-82EE5BAADFA1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;city&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{5696D5BA-B74D-4D3C-865B-93809E576910}">
@@ -642,6 +654,37 @@
 										<Value Value="0" Type="0" />
 									</Property>
 								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{4824B713-87D9-4FA6-9F44-8FFBCC63B785}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndXamlExplorerHostIslandWindow" Key="{670D7BA9-2E7F-4CB6-98AF-4FFFC0F7EAB6}">
+								<Image FileName="1530259700" Left="0" Top="0" Right="1920" Bottom="1080" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="XamlExplorerHostIslandWindow" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{CD615899-855B-4F19-8204-14A7B9E580F7}">
+										<Image FileName="1530259700" Left="0" Top="0" Right="1920" Bottom="1080" />
+										<TypeInfo Item0="{C80A17F4-B476-4813-8220-44B39A66BB5E}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
 							</Child>
 						</Children>
 					</Child>
@@ -699,12 +742,18 @@
 					<Child Name="panelReactSelect3Option2" Owner="{E3715A3D-EE96-4C89-8D63-6A57124E3814}" />
 					<Child Name="panelReactSelect3Option1" Owner="{6A8D1658-E17C-4DC4-BD14-1CF724345B87}" />
 					<Child Name="panelReactSelect4Option0" Owner="{4A94A45A-51F8-4B86-B26F-D562CDBFC609}" />
+					<Child Name="textnode" Owner="{CC9584C3-B22E-4DD9-8F82-CE7384D6760E}" />
 				</Child>
 				<Child Name="panel" Owner="{B8460588-A4F4-470A-97F9-A813773ACCCA}" />
 				<Child Name="frameGoogleAdsIframe218491546012" Owner="{C26B8847-8CED-4312-9DF2-6005660A8204}" />
 				<Child Name="panel2" Owner="{AC5A29D2-22DF-4366-B569-05988FA20493}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{5696D5BA-B74D-4D3C-865B-93809E576910}" />
+		</Child>
+		<Child Name="explorer" Owner="{4824B713-87D9-4FA6-9F44-8FFBCC63B785}">
+			<Child Name="wndXamlExplorerHostIslandWindow" Owner="{670D7BA9-2E7F-4CB6-98AF-4FFFC0F7EAB6}">
+				<Child Name="DesktopWindowXamlSource" Owner="{CD615899-855B-4F19-8204-14A7B9E580F7}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
