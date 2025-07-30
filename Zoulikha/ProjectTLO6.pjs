@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{3AD0C011-D391-4A3A-B27C-D2B288B2315B}">
+	<children>
+		<child name="ProjectTLO6" key="{3C195BCF-24C6-4D97-87E7-D02B6159DA1B}" path="Project IT\ProjectTLO6\ProjectTLO6.mds" />
+	</children>
+	<testItems key="{05B0129D-0F1A-4D74-95EB-F6558C8EEEE0}">
+		<children>
+			<testItem key="{3C195BCF-24C6-4D97-87E7-D02B6159DA1B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{BB9B5156-8A69-46D3-8235-2589990A483D}" />
+	<analysis key="{0662006A-C974-4E40-83E6-BC9C3D09DBEA}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>

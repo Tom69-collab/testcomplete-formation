@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{3674E98A-7F1D-4E26-937A-8BE5670A18C2}">
+	<children />
+	<testItems key="{79F68A36-C707-4FF9-98FC-5F625AA0514F}">
+		<children />
+	</testItems>
+	<variables key="{C6F9D218-3E01-4195-BD92-AD2F31418F7E}" />
+	<analysis key="{EB77C4A2-0B4D-4053-87D3-F06058266959}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
