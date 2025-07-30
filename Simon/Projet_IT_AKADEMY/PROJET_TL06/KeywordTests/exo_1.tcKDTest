@@ -15,9 +15,15 @@
 					</Parameters>
 				</Data>
 			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Closes the specified Window object." Action="Close">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
+				</Data>
+			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{51EB9B05-D0DA-4964-B0BB-56E943514B14}">
-		<Parameter0 Name="Param1" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
-	</Parameters>
+	<Parameters Key="{51EB9B05-D0DA-4964-B0BB-56E943514B14}" />
 </Root>

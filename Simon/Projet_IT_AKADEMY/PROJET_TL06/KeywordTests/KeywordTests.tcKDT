@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
 	<children>
-		<child name="Test1" key="{F0449FD3-C5E9-42E3-9277-3B6C8EB2EFE3}" path="Test1.tcKDTest" />
+		<child name="exo_1" key="{F0449FD3-C5E9-42E3-9277-3B6C8EB2EFE3}" path="exo_1.tcKDTest" />
+		<child name="exo_2" key="{32E7EDF5-7BFD-4885-99E9-18E613477986}" path="exo_2.tcKDTest" />
+		<child name="exo_2_bis" key="{447B1C20-0094-4C38-A42E-5037DA42A3B5}" path="exo_2_bis.tcKDTest" />
+		<child name="exo_3" key="{450F8555-B90D-4E20-8486-052E2B4952A9}" path="exo_3.tcKDTest" />
+		<child name="exo_6" key="{4CFEDA6C-696B-4A3B-80DB-AE37F96EDF72}" path="exo_6.tcKDTest" />
+		<child name="exo_7" key="{73074D4E-6D7B-494E-BB89-270CF52A6C14}" path="exo_7.tcKDTest" />
+		<child name="exo_8" key="{26068A88-7B4D-4080-A7DC-4703B5CF1831}" path="exo_8.tcKDTest" />
 	</children>
 </Root>
