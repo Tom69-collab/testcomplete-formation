@@ -344,6 +344,1152 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textboxUseremail" Key="{08064A3D-40F5-49DC-A826-E427C421D450}">
+										<Image FileName="483833368" Left="504" Top="472" Right="942" Bottom="510" />
+										<TypeInfo Item0="{46724550-F3CB-4087-B20E-1B9910B9F546}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userEmail-wrapper&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelMale" Key="{BE24C06F-E84F-4A44-A2D0-D2DC4DD5B3C4}">
+										<Image FileName="-1373073184" Left="528" Top="518" Right="563" Bottom="542" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Male&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;genterWrapper&apos;]//div/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;genterWrapper&apos;]//div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;genterWrapper&apos;]//div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsernumber" Key="{1459F429-EE1B-4F15-B0AF-906AC5A44472}">
+										<Image FileName="-999032074" Left="504" Top="550" Right="942" Bottom="588" />
+										<TypeInfo Item0="{46724550-F3CB-4087-B20E-1B9910B9F546}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userNumber" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userNumber-wrapper&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDateofbirthinput" Key="{943F856F-0AD6-454E-B228-B64006FD6654}">
+										<Image FileName="1975606180" Left="504" Top="596" Right="711" Bottom="634" />
+										<TypeInfo Item0="{46724550-F3CB-4087-B20E-1B9910B9F546}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dateOfBirthInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;29 Jul 2025&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;dateOfBirth-wrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;dateOfBirth-wrapper&apos;]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dateOfBirth&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;dateOfBirth-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="select" Key="{5C3D7F3C-C0E2-4361-9641-02A7F4021FB0}">
+										<Image FileName="1764674875" Left="644" Top="676" Right="695" Bottom="695" />
+										<TypeInfo Item0="{CADF6742-A14F-4AC8-99BA-DB6E94C8316E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[contains(@class, &apos;react-datepicker__year-select&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dateOfBirth&apos;]//div[2]/select" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelChooseTuesdayJuly6th1993" Key="{1E8823F0-8EB8-4BF1-B289-F19D1561239F}">
+										<Image FileName="-607966531" Left="579" Top="770" Right="606" Bottom="797" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]/div[contains(@class, &apos;react-datepicker__day--006&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{376E6776-64C5-4B41-9F1D-03E55B193CE3}">
+										<Image FileName="1427478939" Left="505" Top="643" Right="940" Bottom="679" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;subjects-auto-complete__value-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSubjectsinput" Key="{2BA2604F-D80A-42A8-A228-73E29F60EDCF}">
+										<Image FileName="-1462662980" Left="515" Top="649" Right="517" Bottom="673" />
+										<TypeInfo Item0="{46724550-F3CB-4087-B20E-1B9910B9F546}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#subjectsInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;subjectsWrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;subjectsContainer&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;subjectsWrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReactSelect2Option0" Key="{BA109783-D3CC-41EB-9E6C-CACDBB98A187}">
+										<Image FileName="1781182249" Left="504" Top="692" Right="942" Bottom="732" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#react-select-2-option-0" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[text()=&apos;Computer Science&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;subjects-auto-complete__option&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSports" Key="{15E01B85-46DC-4B47-9F2D-94A94F9E03C7}">
+										<Image FileName="-554867097" Left="528" Top="488" Right="573" Bottom="512" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Sports&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;hobbiesWrapper&apos;]//div/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]//div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]/div[2]/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelMusic" Key="{9476975D-85F2-4280-B8BD-B7B539682275}">
+										<Image FileName="467862772" Left="710" Top="488" Right="751" Bottom="512" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Music&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;hobbiesWrapper&apos;]//div[3]/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]//div[3]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]/div[2]/div[3]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="fileSelectPicture" Key="{C7ED2D6A-5B44-4E48-95C4-E6333D212338}">
+										<Image FileName="1191524307" Left="504" Top="560" Right="942" Bottom="590" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Select picture&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#uploadPicture" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;file&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[8]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaCurrentaddress" Key="{C9695FC7-FABC-4602-985C-6C45CFFE5D86}">
+										<Image FileName="-700582893" Left="504" Top="598" Right="942" Bottom="732" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#currentAddress" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currentAddress-wrapper&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{4249D876-18EC-44EC-B341-9003BD95C14F}">
+										<Image FileName="-893334600" Left="644" Top="741" Right="680" Bottom="777" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;stateCity-wrapper&apos;]/div[2]//div[contains(@class, &apos;css-tlfecz-indicatorContainer&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReactSelect3Option3" Key="{DDA58297-B8C8-4714-983F-70A74A1C44EC}">
+										<Image FileName="989231933" Left="504" Top="910" Right="682" Bottom="950" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#react-select-3-option-3" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Rajasthan&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-1n7v3ny-option&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSelectCity" Key="{11CE5F08-E6A3-4D50-AD07-69CEB226F3EE}">
+										<Image FileName="929015919" Left="712" Top="741" Right="851" Bottom="777" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;stateCity-wrapper&apos;]/div[3]//div[contains(@class, &apos;css-1hwfws3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReactSelect4Option0" Key="{876DBD8D-FA59-4E1C-8024-56FA5F79246B}">
+										<Image FileName="-194152202" Left="711" Top="790" Right="889" Bottom="830" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#react-select-4-option-0" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Jaipur&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-1n7v3ny-option&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSubmit" Key="{8194FCA1-590E-4D1D-ADC3-CE041D5326BB}">
+										<Image FileName="2042572491" Left="867" Top="802" Right="943" Bottom="840" />
+										<TypeInfo Item0="{BE465449-5851-4C86-8EF8-2D7AD1764F3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#submit" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{122E4F18-964D-4DB2-8CB6-4C80FF5FE9A3}">
+										<Image FileName="860354405" Left="270" Top="236" Right="539" Bottom="286" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//th[.=&apos;Label&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell2" Key="{41C3FF4D-E218-4AEE-9C85-B43F78DE445D}">
+										<Image FileName="-1433906904" Left="270" Top="285" Right="539" Bottom="335" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Student Name&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell3" Key="{17637C52-F2D9-46DA-A0DB-4B0268C7F857}">
+										<Image FileName="-1596629253" Left="270" Top="335" Right="539" Bottom="384" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Student Email&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell4" Key="{ACDAAED5-D554-420B-B789-C1A9A5EA6B92}">
+										<Image FileName="-1371740398" Left="270" Top="384" Right="539" Bottom="433" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Gender&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell5" Key="{AE94316D-94F3-4426-A073-CA17B18C4860}">
+										<Image FileName="-1841710459" Left="270" Top="433" Right="539" Bottom="482" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Mobile&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell6" Key="{E5886398-48C9-4551-B9D1-CDED4765C360}">
+										<Image FileName="-1412706776" Left="270" Top="482" Right="539" Bottom="531" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Date of Birth&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell7" Key="{60BA5C82-818A-4398-BB26-EF06BBC3E54A}">
+										<Image FileName="-1126354978" Left="270" Top="531" Right="539" Bottom="580" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Subjects&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[6]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell8" Key="{16734354-C146-4B07-8413-B5B4D84DC0D7}">
+										<Image FileName="725182754" Left="270" Top="580" Right="539" Bottom="629" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Hobbies&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[7]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell9" Key="{E462A284-DA33-4CC2-8485-662BD71ACFE0}">
+										<Image FileName="1480183416" Left="270" Top="629" Right="539" Bottom="678" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Picture&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[8]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell10" Key="{67A515E5-2A75-4B44-A8ED-4BC2A7C991CF}">
+										<Image FileName="-2084576909" Left="270" Top="678" Right="539" Bottom="727" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;Address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[9]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell11" Key="{9B51FABB-CC2B-4FD6-892C-A6C7D16B1156}">
+										<Image FileName="8477757" Left="270" Top="727" Right="539" Bottom="776" />
+										<TypeInfo Item0="{9EB5B6AC-EAC2-44CC-884F-5C941C8A1F1C}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[.=&apos;State and City&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]//tr[10]/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCloselargemodal" Key="{59159B80-90CE-45CB-9B18-577023442F0D}">
+										<Image FileName="-1584781828" Left="971" Top="825" Right="1035" Bottom="863" />
+										<TypeInfo Item0="{BE465449-5851-4C86-8EF8-2D7AD1764F3B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#closeLargeModal" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Close&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelMale" Key="{066A5B67-C720-440F-9022-B0957402389C}">
+										<Image FileName="511372595" Left="504" Top="418" Right="563" Bottom="442" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Male&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgOuvrir" Key="{375A6020-56DD-4DC0-A16F-053E50994618}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Ouvrir" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DUIViewWndClassName" Key="{95A85971-7523-418D-8227-18B6744F4C07}">
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="DUIViewWndClassName" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Volet_de_l_Explorateur" Key="{346937E3-546C-445C-99EC-25F58FCE8B44}">
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="DirectUI" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="HWNDView" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="volet" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Volet_de_l_Explorateur" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="CtrlNotifySink" Key="{E8669F02-0B17-4215-8887-638181491586}">
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="CtrlNotifySink" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="ShellView" Key="{B7712057-1C08-40FF-B2C0-C4096E4C1559}" ExtendedFind="True">
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="SHELLDLL_DefView" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="ShellView" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="Vue_d_l_ments" Key="{41047DB8-44BA-452D-BB76-14B75DF82424}">
+																		<Properties>
+																			<Property Name="FrameworkId">
+																				<Value Value="DirectUI" />
+																			</Property>
+																			<Property Name="ClassName">
+																				<Value Value="UIItemsView" />
+																			</Property>
+																			<Property Name="LocalizedControlType">
+																				<Value Value="liste" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="Vue_d_éléments" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Semaine_derni_re" Key="{2C3B166F-58A9-4D63-9DA7-396D7D1189DA}">
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIGroupItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="Groupe" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Semaine_dernière" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="R_sum_chapitre_4" Key="{5F17C6F9-6143-44F0-BE98-FF9554907BD1}">
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="élément de liste" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Résumé_chapitre_4" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nom" Key="{09F4B325-BBA7-46AF-875F-522D9A76E230}">
+																								<TypeInfo Item0="{7BA404ED-8DA1-486C-8528-A768DFD2F14B}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="Modifier" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nom" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="Plus_t_t_dans_le_mois" Key="{3E2BABAC-A21D-4FBF-A494-A94D47D9944A}">
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIGroupItem" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="Groupe" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="Plus_tôt_dans_le_mois" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Plus_t_t_dans_le_mois_34_" Key="{D03A80D7-0E5A-4397-8600-86577B4F922E}">
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIGroupHeader" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="En-tête de groupe" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Plus_tôt_dans_le_mois_34_" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nombre" Key="{4DC2F86C-37F2-4219-83EE-A9617AD757F0}">
+																								<TypeInfo Item0="{7BA404ED-8DA1-486C-8528-A768DFD2F14B}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UICount" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="Modifier" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nombre" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="Qualit_logicielle_Fondamentaux" Key="{9D5CEF3D-730B-4A57-BB59-88F17A8D951F}">
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="élément de liste" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="Qualité_logicielle_Fondamentaux" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nom" Key="{14469CD0-8AB1-41C9-BF42-B6BC7A669A36}">
+																								<TypeInfo Item0="{7BA404ED-8DA1-486C-8528-A768DFD2F14B}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="Modifier" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nom" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="entretien_SDR" Key="{5A18AF5D-8FFC-4D04-BF8E-4C2D17B50197}">
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="élément de liste" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="entretien_SDR" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nom" Key="{E87491AA-42C4-4F68-9CC9-BC7C8845723B}">
+																								<TypeInfo Item0="{7BA404ED-8DA1-486C-8528-A768DFD2F14B}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="Modifier" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nom" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="evershop_test_cases" Key="{BD867047-6B67-4271-892B-C055C13F6F9B}">
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="élément de liste" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="evershop_test_cases" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nom" Key="{41C54177-237E-421E-A2C0-D45DD473257A}">
+																								<TypeInfo Item0="{7BA404ED-8DA1-486C-8528-A768DFD2F14B}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="Modifier" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nom" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="chromaprint_fpcalc_1_5_1_windows_x86_64" Key="{37BFE92D-441F-4D83-8298-74A3CF25EB93}">
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="élément de liste" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="chromaprint_fpcalc_1_5_1_windows_x86_64" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nom" Key="{5A284F14-C0E1-4927-B2FF-B386F4EB98F5}">
+																								<TypeInfo Item0="{7BA404ED-8DA1-486C-8528-A768DFD2F14B}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="Modifier" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nom" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="utilisateurs" Key="{7A0DC280-D3A7-4C78-95B6-6804E2CC3F19}">
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="élément de liste" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="utilisateurs" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nom" Key="{4A49CF16-9C59-41E0-920C-F479803C36F5}">
+																								<TypeInfo Item0="{7BA404ED-8DA1-486C-8528-A768DFD2F14B}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="Modifier" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nom" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="ceinture" Key="{12FEE501-D35E-4F5C-B58D-FA9C2762BB66}">
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="élément de liste" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="ceinture" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="Nom" Key="{D0EE2783-F1AF-40D8-AA81-DE3F7BD9F8C6}">
+																								<TypeInfo Item0="{7BA404ED-8DA1-486C-8528-A768DFD2F14B}" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIProperty" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="Modifier" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="Nom" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAlerts" Key="{84028A68-1168-4CEE-907A-52276180BEB2}">
+								<Image FileName="213347377" Left="8" Top="121" Right="966" Bottom="1039" />
+								<TypeInfo Item0="{465FD8B4-41BF-45A6-BD89-5ED663C27911}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demoqa.com/alerts" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Alert" Key="{612E4733-B755-4846-9053-4BD7A063BFA3}">
+										<Image FileName="213347377" Left="256" Top="78" Right="718" Bottom="238" />
+										<TypeInfo Item0="{08EDD3A4-A989-41E7-939D-471E6753B62A}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Alert" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{0534EDE1-4CE9-4469-B22E-55FAD0361576}">
+												<Image FileName="213347377" Left="627" Top="171" Right="691" Bottom="209" />
+												<TypeInfo Item0="{F1C169B2-61FC-4BD5-9387-7135EC6B9694}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonOk2" Key="{9F35AADD-45AF-4F77-8414-5A4C5B9AFA63}">
+												<Image FileName="1873139293" Left="627" Top="171" Right="691" Bottom="209" />
+												<TypeInfo Item0="{F1C169B2-61FC-4BD5-9387-7135EC6B9694}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="buttonAlertbutton" Key="{A7145DA8-D3E2-44E7-BE19-EE4571F547EA}">
+										<Image FileName="-539136692" Left="502" Top="394" Right="588" Bottom="432" />
+										<TypeInfo Item0="{23CABE18-5991-4946-A6D6-544DAEABFFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#alertButton" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Click me&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDemoqa2" Key="{AF1A08CA-5811-4228-8A78-3295489E8276}">
+								<Image FileName="-867128249" Left="8" Top="121" Right="966" Bottom="1039" />
+								<TypeInfo Item0="{465FD8B4-41BF-45A6-BD89-5ED663C27911}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demoqa.com/text-box" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formUserform" Key="{6C25EA9F-83F2-48DE-A4A5-B8CE49C88A81}">
+										<Image FileName="-867128249" Left="263" Top="394" Right="695" Bottom="862" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Full Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsername" Key="{BA31118F-5307-4D55-9283-0FF496A10DAF}">
+										<Image FileName="-867128249" Left="379" Top="394" Right="696" Bottom="432" />
+										<TypeInfo Item0="{8FA788F4-885E-49EA-AB75-91B964E13912}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userName" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userName-wrapper&apos;]//input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userName-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputUseremail" Key="{6EE0AAEF-12D9-4F66-A798-D3FC6C5C89E8}">
+										<Image FileName="1288633618" Left="379" Top="440" Right="696" Bottom="478" />
+										<TypeInfo Item0="{8FA788F4-885E-49EA-AB75-91B964E13912}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userEmail-wrapper&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaCurrentaddress" Key="{0B6FDAAB-10D9-45C2-932C-2DD6DBC0FEEE}">
+										<Image FileName="-1354623445" Left="379" Top="486" Right="696" Bottom="620" />
+										<TypeInfo Item0="{530B61FA-F3B4-4F92-8273-6A390A48FCD2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#currentAddress" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;currentAddress-wrapper&apos;]//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currentAddress-wrapper&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;currentAddress-wrapper&apos;]//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaPermanentaddress" Key="{E0431E0B-443D-441D-B5B2-26D89C7351A2}">
+										<Image FileName="958437124" Left="379" Top="462" Right="696" Bottom="596" />
+										<TypeInfo Item0="{530B61FA-F3B4-4F92-8273-6A390A48FCD2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#permanentAddress" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;permanentAddress-wrapper&apos;]//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;permanentAddress-wrapper&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;permanentAddress-wrapper&apos;]//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeName" Key="{E9BD72AA-DA11-4033-99C9-64321BA323DA}">
+										<Image FileName="-2074097837" Left="264" Top="667" Right="694" Bottom="691" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#name" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[text()=&apos;Name:&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEmail" Key="{3B850396-F342-4581-8B67-0AA68521D064}">
+										<Image FileName="-2074097837" Left="264" Top="695" Right="694" Bottom="719" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[text()=&apos;Email:&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCurrentaddress" Key="{C828A1A8-F350-4720-9E49-5DF035C3675E}">
+										<Image FileName="-501626646" Left="264" Top="723" Right="694" Bottom="747" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;Current Address :&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePermanentaddress" Key="{5F3F81EB-40FD-4ADE-AB35-FDF738989F32}">
+										<Image FileName="-501626646" Left="264" Top="751" Right="694" Bottom="775" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[text()=&apos;Permananet Address :&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSubmit" Key="{D9C3BF6B-C4A6-4458-A8BD-E78AFFA37897}">
+										<Image FileName="-218552453" Left="649" Top="770" Right="725" Bottom="808" />
+										<TypeInfo Item0="{23CABE18-5991-4946-A6D6-544DAEABFFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#submit" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDemoqa3" Key="{E022E2D8-CE6D-4374-8F57-D632B70608B9}">
+								<Image FileName="-930141370" Left="8" Top="121" Right="1327" Bottom="1039" />
+								<TypeInfo Item0="{465FD8B4-41BF-45A6-BD89-5ED663C27911}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demoqa.com/buttons" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonDoubleclickbtn" Key="{892C313B-B16F-4412-ADCB-0B0962D3268F}">
+										<Image FileName="-930141370" Left="356" Top="394" Right="498" Bottom="432" />
+										<TypeInfo Item0="{23CABE18-5991-4946-A6D6-544DAEABFFAD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#doubleClickBtn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Double Click Me&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDoubleclickmessage" Key="{13C004A2-0A94-4FD5-9D32-AE9E665355C1}">
+										<Image FileName="557582463" Left="356" Top="556" Right="965" Bottom="580" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#doubleClickMessage" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[.=&apos;You have done a double click&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -387,7 +1533,102 @@
 				<Child Name="formUserform" Owner="{07759DAE-F35E-470F-B80D-D6EE5B6F603B}">
 					<Child Name="textboxFirstname" Owner="{9C924892-D1B5-486F-A843-DE48EA3CB026}" />
 					<Child Name="textboxLastname" Owner="{50143CF1-AFBC-4847-A80D-61E8B2263630}" />
+					<Child Name="textboxUseremail" Owner="{08064A3D-40F5-49DC-A826-E427C421D450}" />
+					<Child Name="labelMale" Owner="{BE24C06F-E84F-4A44-A2D0-D2DC4DD5B3C4}" />
+					<Child Name="textboxUsernumber" Owner="{1459F429-EE1B-4F15-B0AF-906AC5A44472}" />
+					<Child Name="textboxDateofbirthinput" Owner="{943F856F-0AD6-454E-B228-B64006FD6654}" />
+					<Child Name="select" Owner="{5C3D7F3C-C0E2-4361-9641-02A7F4021FB0}" />
+					<Child Name="panelChooseTuesdayJuly6th1993" Owner="{1E8823F0-8EB8-4BF1-B289-F19D1561239F}" />
+					<Child Name="panel" Owner="{376E6776-64C5-4B41-9F1D-03E55B193CE3}" />
+					<Child Name="textboxSubjectsinput" Owner="{2BA2604F-D80A-42A8-A228-73E29F60EDCF}" />
+					<Child Name="panelReactSelect2Option0" Owner="{BA109783-D3CC-41EB-9E6C-CACDBB98A187}" />
+					<Child Name="labelSports" Owner="{15E01B85-46DC-4B47-9F2D-94A94F9E03C7}" />
+					<Child Name="labelMusic" Owner="{9476975D-85F2-4280-B8BD-B7B539682275}" />
+					<Child Name="fileSelectPicture" Owner="{C7ED2D6A-5B44-4E48-95C4-E6333D212338}" />
+					<Child Name="textareaCurrentaddress" Owner="{C9695FC7-FABC-4602-985C-6C45CFFE5D86}" />
+					<Child Name="panel2" Owner="{4249D876-18EC-44EC-B341-9003BD95C14F}" />
+					<Child Name="panelReactSelect3Option3" Owner="{DDA58297-B8C8-4714-983F-70A74A1C44EC}" />
+					<Child Name="panelSelectCity" Owner="{11CE5F08-E6A3-4D50-AD07-69CEB226F3EE}" />
+					<Child Name="panelReactSelect4Option0" Owner="{876DBD8D-FA59-4E1C-8024-56FA5F79246B}" />
+					<Child Name="buttonSubmit" Owner="{8194FCA1-590E-4D1D-ADC3-CE041D5326BB}" />
+					<Child Name="panelMale" Owner="{066A5B67-C720-440F-9022-B0957402389C}" />
 				</Child>
+				<Child Name="cell" Owner="{122E4F18-964D-4DB2-8CB6-4C80FF5FE9A3}" />
+				<Child Name="cell2" Owner="{41C3FF4D-E218-4AEE-9C85-B43F78DE445D}" />
+				<Child Name="cell3" Owner="{17637C52-F2D9-46DA-A0DB-4B0268C7F857}" />
+				<Child Name="cell4" Owner="{ACDAAED5-D554-420B-B789-C1A9A5EA6B92}" />
+				<Child Name="cell5" Owner="{AE94316D-94F3-4426-A073-CA17B18C4860}" />
+				<Child Name="cell6" Owner="{E5886398-48C9-4551-B9D1-CDED4765C360}" />
+				<Child Name="cell7" Owner="{60BA5C82-818A-4398-BB26-EF06BBC3E54A}" />
+				<Child Name="cell8" Owner="{16734354-C146-4B07-8413-B5B4D84DC0D7}" />
+				<Child Name="cell9" Owner="{E462A284-DA33-4CC2-8485-662BD71ACFE0}" />
+				<Child Name="cell10" Owner="{67A515E5-2A75-4B44-A8ED-4BC2A7C991CF}" />
+				<Child Name="cell11" Owner="{9B51FABB-CC2B-4FD6-892C-A6C7D16B1156}" />
+				<Child Name="buttonCloselargemodal" Owner="{59159B80-90CE-45CB-9B18-577023442F0D}" />
+			</Child>
+			<Child Name="dlgOuvrir" Owner="{375A6020-56DD-4DC0-A16F-053E50994618}">
+				<Child Name="DUIViewWndClassName" Owner="{95A85971-7523-418D-8227-18B6744F4C07}">
+					<Child Name="Volet_de_l_Explorateur" Owner="{346937E3-546C-445C-99EC-25F58FCE8B44}">
+						<Child Name="CtrlNotifySink" Owner="{E8669F02-0B17-4215-8887-638181491586}">
+							<Child Name="ShellView" Owner="{B7712057-1C08-40FF-B2C0-C4096E4C1559}">
+								<Child Name="Vue_d_l_ments" Owner="{41047DB8-44BA-452D-BB76-14B75DF82424}">
+									<Child Name="Semaine_derni_re" Owner="{2C3B166F-58A9-4D63-9DA7-396D7D1189DA}">
+										<Child Name="R_sum_chapitre_4" Owner="{5F17C6F9-6143-44F0-BE98-FF9554907BD1}">
+											<Child Name="Nom" Owner="{09F4B325-BBA7-46AF-875F-522D9A76E230}" />
+										</Child>
+									</Child>
+									<Child Name="Plus_t_t_dans_le_mois" Owner="{3E2BABAC-A21D-4FBF-A494-A94D47D9944A}">
+										<Child Name="Plus_t_t_dans_le_mois_34_" Owner="{D03A80D7-0E5A-4397-8600-86577B4F922E}">
+											<Child Name="Nombre" Owner="{4DC2F86C-37F2-4219-83EE-A9617AD757F0}" />
+										</Child>
+										<Child Name="Qualit_logicielle_Fondamentaux" Owner="{9D5CEF3D-730B-4A57-BB59-88F17A8D951F}">
+											<Child Name="Nom" Owner="{14469CD0-8AB1-41C9-BF42-B6BC7A669A36}" />
+										</Child>
+										<Child Name="entretien_SDR" Owner="{5A18AF5D-8FFC-4D04-BF8E-4C2D17B50197}">
+											<Child Name="Nom" Owner="{E87491AA-42C4-4F68-9CC9-BC7C8845723B}" />
+										</Child>
+										<Child Name="evershop_test_cases" Owner="{BD867047-6B67-4271-892B-C055C13F6F9B}">
+											<Child Name="Nom" Owner="{41C54177-237E-421E-A2C0-D45DD473257A}" />
+										</Child>
+										<Child Name="chromaprint_fpcalc_1_5_1_windows_x86_64" Owner="{37BFE92D-441F-4D83-8298-74A3CF25EB93}">
+											<Child Name="Nom" Owner="{5A284F14-C0E1-4927-B2FF-B386F4EB98F5}" />
+										</Child>
+										<Child Name="utilisateurs" Owner="{7A0DC280-D3A7-4C78-95B6-6804E2CC3F19}">
+											<Child Name="Nom" Owner="{4A49CF16-9C59-41E0-920C-F479803C36F5}" />
+										</Child>
+										<Child Name="ceinture" Owner="{12FEE501-D35E-4F5C-B58D-FA9C2762BB66}">
+											<Child Name="Nom" Owner="{D0EE2783-F1AF-40D8-AA81-DE3F7BD9F8C6}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageAlerts" Owner="{84028A68-1168-4CEE-907A-52276180BEB2}">
+				<Child Name="Alert" Owner="{612E4733-B755-4846-9053-4BD7A063BFA3}">
+					<Child Name="buttonOk" Owner="{0534EDE1-4CE9-4469-B22E-55FAD0361576}" />
+					<Child Name="buttonOk2" Owner="{9F35AADD-45AF-4F77-8414-5A4C5B9AFA63}" />
+				</Child>
+				<Child Name="buttonAlertbutton" Owner="{A7145DA8-D3E2-44E7-BE19-EE4571F547EA}" />
+			</Child>
+			<Child Name="pageDemoqa2" Owner="{AF1A08CA-5811-4228-8A78-3295489E8276}">
+				<Child Name="formUserform" Owner="{6C25EA9F-83F2-48DE-A4A5-B8CE49C88A81}">
+					<Child Name="textboxUsername" Owner="{BA31118F-5307-4D55-9283-0FF496A10DAF}" />
+					<Child Name="emailinputUseremail" Owner="{6EE0AAEF-12D9-4F66-A798-D3FC6C5C89E8}" />
+					<Child Name="textareaCurrentaddress" Owner="{0B6FDAAB-10D9-45C2-932C-2DD6DBC0FEEE}" />
+					<Child Name="textareaPermanentaddress" Owner="{E0431E0B-443D-441D-B5B2-26D89C7351A2}" />
+					<Child Name="textnodeName" Owner="{E9BD72AA-DA11-4033-99C9-64321BA323DA}" />
+					<Child Name="textnodeEmail" Owner="{3B850396-F342-4581-8B67-0AA68521D064}" />
+					<Child Name="textnodeCurrentaddress" Owner="{C828A1A8-F350-4720-9E49-5DF035C3675E}" />
+					<Child Name="textnodePermanentaddress" Owner="{5F3F81EB-40FD-4ADE-AB35-FDF738989F32}" />
+					<Child Name="buttonSubmit" Owner="{D9C3BF6B-C4A6-4458-A8BD-E78AFFA37897}" />
+				</Child>
+			</Child>
+			<Child Name="pageDemoqa3" Owner="{E022E2D8-CE6D-4374-8F57-D632B70608B9}">
+				<Child Name="buttonDoubleclickbtn" Owner="{892C313B-B16F-4412-ADCB-0B0962D3268F}" />
+				<Child Name="textnodeDoubleclickmessage" Owner="{13C004A2-0A94-4FD5-9D32-AE9E665355C1}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
