@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<folder name="Formulaire">
-			<child name="Exercice_5" key="{A4BA097C-027E-436C-89A7-98E990BC3591}" path="Exercice_5.js" />
-		</folder>
+		<folder name="Formulaire" />
+		<child name="Test_script" key="{E85F18C4-AC4B-416F-BAF3-0644A471DCC3}" path="Test_script.js" />
+		<child name="Unit2" key="{1CCA1EA9-FBE2-49BD-85A6-A7B46C44D184}" path="Unit2.js" />
 	</children>
 </Root>
