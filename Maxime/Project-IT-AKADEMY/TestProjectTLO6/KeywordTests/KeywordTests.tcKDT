@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Exercice_1" key="{93C41472-B605-436D-9794-4B025820CD44}" path="Exercice_1.tcKDTest" />
+		<child name="Exercice_2" key="{095047FB-1A0C-466C-A33A-1914CA2A46A2}" path="Exercice_2.tcKDTest" />
+		<child name="Excercice_2bis" key="{71F1102C-60E4-4A2F-8A66-9FA1A10E0246}" path="Excercice_2bis.tcKDTest" />
+		<child name="Exercice_3" key="{92D2FAC9-FA98-432B-B933-B097CD1C4137}" path="Exercice_3.tcKDTest" />
+	</children>
+</Root>

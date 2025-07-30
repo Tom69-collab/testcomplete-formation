@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Navigateur" />
+		<child name="Exercice_01" key="{2A0C1E61-102C-4DF8-AF9A-648508094248}" path="Exercice_01.tcKDTest" />
+	</children>
+</Root>
