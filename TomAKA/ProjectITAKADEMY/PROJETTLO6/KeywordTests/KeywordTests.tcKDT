@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Navigation">
+			<child name="Exercice_1" key="{A4B675A2-E997-4127-B4A6-BE1306C3954C}" path="Exercice_1.tcKDTest" />
+			<child name="Exercice_2" key="{5218D222-6BD3-4894-AB45-82D3A16536D1}" path="Exercice_2.tcKDTest" />
+			<child name="Exercice_2bis" key="{77F8698E-14A5-4CA5-9821-0FCDA0DA7222}" path="Exercice_2bis.tcKDTest" />
+			<child name="Exercice_7" key="{D76D40A6-462F-4253-B1BE-E85ADB924C53}" path="Exercice_7.tcKDTest" />
+		</folder>
+		<folder name="Formulaire">
+			<child name="Exercice_3" key="{0EA9AD9F-9B3C-43C1-AF08-73382A30EBF4}" path="Exercice_3.tcKDTest" />
+			<child name="Exercice_4" key="{B86CB603-37BF-4539-82E0-C0530F90723E}" path="Exercice_4.tcKDTest" />
+			<child name="Exercice_6" key="{E2BAB2E1-68D0-4E28-BD16-648CABB0C6BE}" path="Exercice_6.tcKDTest" />
+			<child name="Exercice_8" key="{E5A3C153-F242-4FDC-BC1B-F8A3384F54D8}" path="Exercice_8.tcKDTest" />
+		</folder>
+		<child name="Exercice_01" key="{B01BF39E-42F3-42A1-8BE4-BA65FF5DFFFF}" path="Exercice_01.tcKDTest" />
+		<child name="Exercice_02" key="{D145CD9E-9540-4711-8A1A-7B30FBCC0C2E}" path="Exercice_02.tcKDTest" />
+		<child name="Exercice_02bis" key="{6C580F8F-4D83-43E6-9900-0A907E168A9E}" path="Exercice_02bis.tcKDTest" />
+	</children>
+</Root>
