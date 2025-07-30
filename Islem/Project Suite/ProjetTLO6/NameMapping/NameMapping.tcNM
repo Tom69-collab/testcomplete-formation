@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{99697781-0870-40B0-906D-2D38ED5BC114}">
+				<TypeInfo Item0="{F2961B48-F23E-48E0-973E-A9B8E06FF9FF}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{85602841-1D2F-47C0-A0C9-A250B2F8E61E}">
+						<TypeInfo Item0="{C7888BD5-DF53-4EC2-9D1F-D1F06AEB77F7}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageDemoqa" Key="{16104114-4BAC-4B1C-B264-986F3A064EA4}">
+								<Image FileName="-1786444561" Left="9" Top="117" Right="1929" Bottom="1029" />
+								<TypeInfo Item0="{DEB8D076-1F8A-4E63-AC62-9BCD0BD01F2E}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demoqa.com/automation-practice-form" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formUserform" Key="{C9776347-5279-48A1-9594-D999D82A93B0}">
+										<Image FileName="-1786444561" Left="513" Top="333" Right="1407" Bottom="1099" />
+										<TypeInfo Item0="{7FB0860D-3119-4C4A-905A-ED48294A28FF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstname" Key="{D4324653-A3FC-4E05-ACCF-110FA4B6A254}">
+										<Image FileName="-1786444561" Left="745" Top="333" Right="1018" Bottom="381" />
+										<TypeInfo Item0="{40C9EF5B-1945-4484-877A-19E81B36EA24}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#firstName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastname" Key="{2A252718-FCCB-453A-8A44-FE4CF0879156}">
+										<Image FileName="-1786444561" Left="1133" Top="333" Right="1406" Bottom="381" />
+										<TypeInfo Item0="{40C9EF5B-1945-4484-877A-19E81B36EA24}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lastName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//div[4]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUseremail" Key="{80D7EB42-DA73-481A-A643-589282A02972}">
+										<Image FileName="-1786444561" Left="745" Top="390" Right="1406" Bottom="438" />
+										<TypeInfo Item0="{40C9EF5B-1945-4484-877A-19E81B36EA24}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userEmail-wrapper&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userEmail-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelFemale" Key="{E84758FB-2A38-4FC6-97D8-152BEDAD4B72}">
+										<Image FileName="-1786444561" Left="869" Top="447" Right="932" Bottom="477" />
+										<TypeInfo Item0="{7FB0860D-3119-4C4A-905A-ED48294A28FF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Female&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;genterWrapper&apos;]//div[2]/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;genterWrapper&apos;]//div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;genterWrapper&apos;]//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxUsernumber" Key="{E8B4C3A5-814F-446F-9A05-F7C361D35282}">
+										<Image FileName="-1786444561" Left="745" Top="487" Right="1406" Bottom="535" />
+										<TypeInfo Item0="{40C9EF5B-1945-4484-877A-19E81B36EA24}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userNumber" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userNumber-wrapper&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;userNumber-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDateofbirthinput" Key="{5872F869-5B34-4538-80E8-7D62C902FBE1}">
+										<Image FileName="-1786444561" Left="745" Top="545" Right="1003" Bottom="593" />
+										<TypeInfo Item0="{40C9EF5B-1945-4484-877A-19E81B36EA24}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dateOfBirthInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;30 Jul 2025&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;dateOfBirth-wrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;dateOfBirth-wrapper&apos;]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dateOfBirth&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;dateOfBirth-wrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSports" Key="{0FEB813A-65F8-4F89-A72F-2EA533610B98}">
+										<Image FileName="-1786444561" Left="775" Top="660" Right="831" Bottom="690" />
+										<TypeInfo Item0="{7FB0860D-3119-4C4A-905A-ED48294A28FF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Sports&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;hobbiesWrapper&apos;]//div/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]//div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]/div[2]/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSportif" Key="{49CD0F12-C57E-44EB-82E6-6BD347EBEB54}">
+										<Image FileName="54604627" Left="775" Top="429" Right="834" Bottom="456" />
+										<TypeInfo Item0="{7FB0860D-3119-4C4A-905A-ED48294A28FF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Sportif&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]//div/div/label/font/font" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]/div[@id=&apos;hobbiesWrapper&apos;]/div[2]//label/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaCurrentaddress" Key="{54009F6A-A35E-4A6F-B046-F93003F8248A}">
+										<Image FileName="371327918" Left="736" Top="556" Right="1397" Bottom="723" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#currentAddress" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;currentAddress-wrapper&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSLectionnezLTat" Key="{3780868D-10A3-40FE-AAC1-DEBCAD636CBC}">
+										<Image FileName="1509665363" Left="737" Top="734" Right="962" Bottom="779" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;stateCity-wrapper&apos;]/div[2]//div[contains(@class, &apos;css-1hwfws3&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUttarPradesh" Key="{B58ED5A6-FAFD-43F5-9C8A-CCC9FED42E31}">
+										<Image FileName="1870008233" Left="751" Top="856" Right="871" Bottom="883" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Uttar Pradesh&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-select-3-option-1&apos;]//font/font" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-select-3-option-1&apos;]/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSLectionnezLaVille" Key="{430B0B87-4ABD-4DA7-8DD5-0B9630CC0FE9}">
+										<Image FileName="96250073" Left="1060" Top="742" Right="1232" Bottom="769" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Sélectionnez la ville&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;city&apos;]//font/font" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]/div[@id=&apos;stateCity-wrapper&apos;]/div[3]//font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLucknow" Key="{23430807-00F6-437A-8846-947224A0924D}">
+										<Image FileName="-259326417" Left="1062" Top="856" Right="1139" Bottom="883" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Lucknow&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-select-4-option-1&apos;]//font/font" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-select-4-option-1&apos;]/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSubmit" Key="{BBB655C2-DD3A-4A97-A5EE-C3E6A18E103C}">
+										<Image FileName="-994971640" Left="1280" Top="810" Right="1404" Bottom="862" />
+										<TypeInfo Item0="{8ACC8822-EB88-4CC1-9B26-F24AA6EBA252}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#submit" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Soumettre&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{7BD8C97C-5410-4F0F-94D7-45E3804A7DCB}">
+										<Image FileName="-604063026" Left="746" Top="504" Right="1404" Bottom="549" />
+										<TypeInfo Item0="{7FB0860D-3119-4C4A-905A-ED48294A28FF}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;subjects-auto-complete__value-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSubjectsinput" Key="{D3A4BDAE-CFAB-466F-8C81-45C5A014FFC7}">
+										<Image FileName="-333162304" Left="750" Top="379" Right="753" Bottom="409" />
+										<TypeInfo Item0="{87C25C82-EBEC-437F-B479-3C945C0C736D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#subjectsInput" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;subjectsWrapper&apos;]//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;subjectsContainer&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;subjectsWrapper&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSportif" Key="{A231D1CE-9DC4-4D88-AE77-F74B6B084491}">
+										<Image FileName="1025261294" Left="766" Top="428" Right="825" Bottom="458" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Sportif&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;hobbiesWrapper&apos;]//div/label[contains(@class, &apos;custom-control-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]//div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;hobbiesWrapper&apos;]/div[2]/div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSLectionnezLTat" Key="{1C005BD7-914F-43E5-8B75-AB20A018C408}">
+										<Image FileName="-784202619" Left="750" Top="751" Right="910" Bottom="778" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&quot;Sélectionnez l&apos;état&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;state&apos;]//font/font" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]/div[@id=&apos;stateCity-wrapper&apos;]/div[2]//font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel2" Key="{38B4E0B5-EF3D-435A-967A-DA3A05B4FBEF}">
+										<Image FileName="1195128060" Left="344" Top="865" Right="1557" Bottom="895" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSLectionnezLaVille" Key="{ED65BC1D-B9BA-479C-8B86-60090297CC7C}">
+										<Image FileName="-800075096" Left="1028" Top="742" Right="1338" Bottom="790" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Sélectionnez la ville&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{1918D280-E414-4DD8-AA7A-51EB04315D66}">
+										<Image FileName="1314017050" Left="963" Top="743" Right="1008" Bottom="788" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[2]//div[contains(@class, &apos;css-tlfecz-indicatorContainer&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReactSelect3Option2" Key="{9393D909-4205-4813-B15A-632159DC1ED1}">
+										<Image FileName="-356080358" Left="736" Top="676" Right="1009" Bottom="726" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#react-select-3-option-2" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Haryana&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-1n7v3ny-option&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePanipat" Key="{4ED72095-C2D3-4E4A-B547-0D33D7C719C0}">
+										<Image FileName="-586300390" Left="1062" Top="637" Right="1128" Bottom="664" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//font[text()=&apos;Panipat&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-select-4-option-1&apos;]//font/font" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;react-select-4-option-1&apos;]/font/font" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{BEEE4193-209F-4EE1-B13B-80FB9CEA4A77}">
+										<Image FileName="-1860229979" Left="973" Top="615" Right="998" Bottom="640" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[2]//*[name()=&apos;svg&apos;][contains(@class, &apos;css-19bqh2r&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;state&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg2" Key="{720AFDD6-D07E-4114-8DA1-A9CE648CBC4A}">
+										<Image FileName="-1321869271" Left="1284" Top="615" Right="1309" Bottom="640" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form//div[3]//*[name()=&apos;svg&apos;][contains(@class, &apos;css-19bqh2r&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;city&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//div[3]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelReactSelect4Option1" Key="{6000DC1A-2C16-478A-95C5-56F965CE23BB}">
+										<Image FileName="-1299836159" Left="1047" Top="716" Right="1320" Bottom="766" />
+										<TypeInfo Item0="{60EE21DB-DACF-4173-AA4E-EAC721EF5C41}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#react-select-4-option-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[.=&apos;Panipat&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;css-1n7v3ny-option&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{53610E2C-A541-432A-B09E-54862F67F2EC}">
+								<Image FileName="1704182505" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{85602841-1D2F-47C0-A0C9-A250B2F8E61E}">
+			<Child Name="pageDemoqa" Owner="{16104114-4BAC-4B1C-B264-986F3A064EA4}">
+				<Child Name="formUserform" Owner="{C9776347-5279-48A1-9594-D999D82A93B0}">
+					<Child Name="textboxFirstname" Owner="{D4324653-A3FC-4E05-ACCF-110FA4B6A254}" />
+					<Child Name="textboxLastname" Owner="{2A252718-FCCB-453A-8A44-FE4CF0879156}" />
+					<Child Name="textboxUseremail" Owner="{80D7EB42-DA73-481A-A643-589282A02972}" />
+					<Child Name="labelFemale" Owner="{E84758FB-2A38-4FC6-97D8-152BEDAD4B72}" />
+					<Child Name="textboxUsernumber" Owner="{E8B4C3A5-814F-446F-9A05-F7C361D35282}" />
+					<Child Name="textboxDateofbirthinput" Owner="{5872F869-5B34-4538-80E8-7D62C902FBE1}" />
+					<Child Name="labelSports" Owner="{0FEB813A-65F8-4F89-A72F-2EA533610B98}">
+						<Child Name="textnodeSportif" Owner="{49CD0F12-C57E-44EB-82E6-6BD347EBEB54}" />
+					</Child>
+					<Child Name="textareaCurrentaddress" Owner="{54009F6A-A35E-4A6F-B046-F93003F8248A}" />
+					<Child Name="panelSLectionnezLTat" Owner="{3780868D-10A3-40FE-AAC1-DEBCAD636CBC}" />
+					<Child Name="textnodeUttarPradesh" Owner="{B58ED5A6-FAFD-43F5-9C8A-CCC9FED42E31}" />
+					<Child Name="textnodeSLectionnezLaVille" Owner="{430B0B87-4ABD-4DA7-8DD5-0B9630CC0FE9}" />
+					<Child Name="textnodeLucknow" Owner="{23430807-00F6-437A-8846-947224A0924D}" />
+					<Child Name="buttonSubmit" Owner="{BBB655C2-DD3A-4A97-A5EE-C3E6A18E103C}" />
+					<Child Name="panel" Owner="{7BD8C97C-5410-4F0F-94D7-45E3804A7DCB}" />
+					<Child Name="textboxSubjectsinput" Owner="{D3A4BDAE-CFAB-466F-8C81-45C5A014FFC7}" />
+					<Child Name="labelSportif" Owner="{A231D1CE-9DC4-4D88-AE77-F74B6B084491}" />
+					<Child Name="textnodeSLectionnezLTat" Owner="{1C005BD7-914F-43E5-8B75-AB20A018C408}" />
+					<Child Name="panelSLectionnezLaVille" Owner="{ED65BC1D-B9BA-479C-8B86-60090297CC7C}" />
+					<Child Name="panel3" Owner="{1918D280-E414-4DD8-AA7A-51EB04315D66}" />
+					<Child Name="panelReactSelect3Option2" Owner="{9393D909-4205-4813-B15A-632159DC1ED1}" />
+					<Child Name="textnodePanipat" Owner="{4ED72095-C2D3-4E4A-B547-0D33D7C719C0}" />
+					<Child Name="vg" Owner="{BEEE4193-209F-4EE1-B13B-80FB9CEA4A77}" />
+					<Child Name="vg2" Owner="{720AFDD6-D07E-4114-8DA1-A9CE648CBC4A}" />
+					<Child Name="panelReactSelect4Option1" Owner="{6000DC1A-2C16-478A-95C5-56F965CE23BB}" />
+				</Child>
+				<Child Name="panel2" Owner="{38B4E0B5-EF3D-435A-967A-DA3A05B4FBEF}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{53610E2C-A541-432A-B09E-54862F67F2EC}" />
+		</Child>
+	</LogicalNodes>
+</Root>
