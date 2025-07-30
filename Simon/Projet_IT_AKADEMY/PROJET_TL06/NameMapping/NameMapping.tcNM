@@ -3,6 +3,392 @@
 	<Storages Current="0">
 		<Child Name="Default Configuration" />
 	</Storages>
-	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
-	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" />
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{7BEDFEF9-167E-4F38-8280-EBC48C8B12B4}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{D13698F3-8E42-4B65-A0A3-EB87264D4DEC}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{0CD2864B-EE1D-4C8C-818B-3327E2ECEBF7}">
+								<Image FileName="-1419330763" Left="-8" Top="-8" Right="1928" Bottom="1048" />
+								<TypeInfo Item0="{52ABE5D5-8799-42F3-A494-9B2EDC435B73}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageOffreDeFormationEnDistanciel" Key="{788F86F4-6100-4FA0-9767-35ED7A473975}">
+								<Image FileName="1801130401" Left="8" Top="121" Right="1296" Bottom="1039" />
+								<TypeInfo Item0="{465FD8B4-41BF-45A6-BD89-5ED663C27911}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.it-akademy.fr/formation/e-learning-distanciel" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{69D2B6AE-2E2A-4451-B996-9BEB21D41E17}">
+										<Image FileName="1801130401" Left="8" Top="121" Right="1281" Bottom="121" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(., &quot;IT-Akademy : l&apos;école d&apos;informatique professionnalisante&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;shock-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDCouvrirLItAkademy" Key="{F1E07F4B-B1D9-450E-8478-C891062A992E}">
+										<Image FileName="1801130401" Left="298" Top="183" Right="1218" Bottom="263" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &quot;DÉCOUVRIR L&apos;IT-AKADEMY&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div[3]//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkELearning" Key="{7173113C-611A-4ED7-A164-B4AF9AF33F68}">
+										<Image FileName="1801130401" Left="1003" Top="183" Right="1103" Bottom="263" />
+										<TypeInfo Item0="{E22F05CD-116C-4E45-99C8-3C7397818628}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;E-LEARNING&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/ul/li[4]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;navbar&apos;]//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeELearning" Key="{8A3DD2D2-ADDA-4097-83DC-43C078514916}">
+										<Image FileName="1801130401" Left="1013" Top="213" Right="1093" Bottom="233" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;E-LEARNING&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span[contains(@class, &apos;black-75&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;e-learning-distanciel&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContactItAkademyFr" Key="{534CAFA1-010A-4049-B583-BD294C4F071E}">
+										<Image FileName="1152358861" Left="785" Top="134" Right="1217" Bottom="170" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;contact@it-akademy.fr&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSuivreItAkademySurLinkedin" Key="{3B9D0CFD-2F18-4BC3-9CF5-F76E5C993B13}">
+										<Image FileName="1152358861" Left="1130" Top="134" Right="1169" Bottom="170" />
+										<TypeInfo Item0="{E22F05CD-116C-4E45-99C8-3C7397818628}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{FC2B2DE2-E07D-4D15-A63B-5DF3639B89BE}">
+										<Image FileName="1152358861" Left="1140" Top="146" Right="1152" Bottom="160" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[3]/a/i[contains(@class, &apos;icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;navbar&apos;]//li[3]/a/i" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageItAkademy" Key="{2F845BEF-88D6-4FF2-A971-E0A4C78B2184}">
+								<Image FileName="1823398285" Left="8" Top="121" Right="1296" Bottom="1039" />
+								<TypeInfo Item0="{465FD8B4-41BF-45A6-BD89-5ED663C27911}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.it-akademy.fr/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{6F4DC247-1D64-4DA7-A6E0-7ABE99C65878}">
+										<Image FileName="1823398285" Left="8" Top="121" Right="1281" Bottom="121" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(., &quot;IT-Akademy : l&apos;école d&apos;informatique professionnalisante&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header[contains(@class, &apos;shock-header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDCouvrirLItAkademy" Key="{1E7127C6-FD64-4683-A87C-23092E371D91}">
+										<Image FileName="1823398285" Left="298" Top="183" Right="1218" Bottom="263" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &quot;DÉCOUVRIR L&apos;IT-AKADEMY&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div[3]//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkELearning" Key="{016BCE16-C596-47F0-88EE-358C4B7D3F1C}">
+										<Image FileName="1823398285" Left="1003" Top="183" Right="1103" Bottom="263" />
+										<TypeInfo Item0="{E22F05CD-116C-4E45-99C8-3C7397818628}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;E-LEARNING&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/div/div/ul/li[4]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@id=&apos;navbar&apos;]//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeELearning" Key="{38D2F81D-3DC2-4DDB-B252-7974F2264D55}">
+										<Image FileName="1823398285" Left="1013" Top="213" Right="1093" Bottom="233" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;E-LEARNING&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[4]/a/span[contains(@class, &apos;black-75&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@href, &apos;e-learning-distanciel&apos;)]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContactItAkademyFr" Key="{E967EB80-11BF-4246-A775-A56FDFFE3050}">
+										<Image FileName="-1029866246" Left="785" Top="134" Right="1217" Bottom="170" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;contact@it-akademy.fr&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul[contains(@class, &apos;navbar-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{23C0329A-AE43-42C9-8250-6D5022B01A08}">
+										<Image FileName="-1029866246" Left="1125" Top="134" Right="1174" Bottom="170" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSuivreItAkademySurLinkedin" Key="{9828F55B-676F-4792-84A3-B2B02366B81A}">
+										<Image FileName="-1029866246" Left="1130" Top="134" Right="1169" Bottom="170" />
+										<TypeInfo Item0="{E22F05CD-116C-4E45-99C8-3C7397818628}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav//div//ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageDemoqa" Key="{6A52CB52-259E-4FD4-BC08-2737A6274C65}">
+								<Image FileName="1547552236" Left="8" Top="121" Right="1296" Bottom="1039" />
+								<TypeInfo Item0="{465FD8B4-41BF-45A6-BD89-5ED663C27911}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://demoqa.com/automation-practice-form" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formUserform" Key="{07759DAE-F35E-470F-B80D-D6EE5B6F603B}">
+										<Image FileName="1547552236" Left="348" Top="426" Right="942" Bottom="1040" />
+										<TypeInfo Item0="{6B555CFB-9131-4D04-8B61-843070D7B277}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#userForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstname" Key="{9C924892-D1B5-486F-A843-DE48EA3CB026}">
+										<Image FileName="1547552236" Left="504" Top="426" Right="682" Bottom="464" />
+										<TypeInfo Item0="{8FA788F4-885E-49EA-AB75-91B964E13912}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#firstName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastname" Key="{50143CF1-AFBC-4847-A80D-61E8B2263630}">
+										<Image FileName="-583922516" Left="763" Top="426" Right="941" Bottom="464" />
+										<TypeInfo Item0="{8FA788F4-885E-49EA-AB75-91B964E13912}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#lastName" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input[contains(@class, &apos;mr-sm-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;userForm&apos;]//div[4]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;userName-wrapper&apos;]/div[4]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{D13698F3-8E42-4B65-A0A3-EB87264D4DEC}">
+			<Child Name="BrowserWindow" Owner="{0CD2864B-EE1D-4C8C-818B-3327E2ECEBF7}" />
+			<Child Name="pageOffreDeFormationEnDistanciel" Owner="{788F86F4-6100-4FA0-9767-35ED7A473975}">
+				<Child Name="header" Owner="{69D2B6AE-2E2A-4451-B996-9BEB21D41E17}">
+					<Child Name="textnodeDCouvrirLItAkademy" Owner="{F1E07F4B-B1D9-450E-8478-C891062A992E}">
+						<Child Name="linkELearning" Owner="{7173113C-611A-4ED7-A164-B4AF9AF33F68}">
+							<Child Name="textnodeELearning" Owner="{8A3DD2D2-ADDA-4097-83DC-43C078514916}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeContactItAkademyFr" Owner="{534CAFA1-010A-4049-B583-BD294C4F071E}">
+						<Child Name="linkSuivreItAkademySurLinkedin" Owner="{3B9D0CFD-2F18-4BC3-9CF5-F76E5C993B13}">
+							<Child Name="textnode" Owner="{FC2B2DE2-E07D-4D15-A63B-5DF3639B89BE}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageItAkademy" Owner="{2F845BEF-88D6-4FF2-A971-E0A4C78B2184}">
+				<Child Name="header" Owner="{6F4DC247-1D64-4DA7-A6E0-7ABE99C65878}">
+					<Child Name="textnodeDCouvrirLItAkademy" Owner="{1E7127C6-FD64-4683-A87C-23092E371D91}">
+						<Child Name="linkELearning" Owner="{016BCE16-C596-47F0-88EE-358C4B7D3F1C}">
+							<Child Name="textnodeELearning" Owner="{38D2F81D-3DC2-4DDB-B252-7974F2264D55}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeContactItAkademyFr" Owner="{E967EB80-11BF-4246-A775-A56FDFFE3050}">
+						<Child Name="textnode" Owner="{23C0329A-AE43-42C9-8250-6D5022B01A08}">
+							<Child Name="linkSuivreItAkademySurLinkedin" Owner="{9828F55B-676F-4792-84A3-B2B02366B81A}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageDemoqa" Owner="{6A52CB52-259E-4FD4-BC08-2737A6274C65}">
+				<Child Name="formUserform" Owner="{07759DAE-F35E-470F-B80D-D6EE5B6F603B}">
+					<Child Name="textboxFirstname" Owner="{9C924892-D1B5-486F-A843-DE48EA3CB026}" />
+					<Child Name="textboxLastname" Owner="{50143CF1-AFBC-4847-A80D-61E8B2263630}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
 </Root>
