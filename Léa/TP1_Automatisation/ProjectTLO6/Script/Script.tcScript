@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{36600E6A-00F2-46D9-A2EB-7CA20A8DDAB9}" path="Unit1.js" />
+		<child name="Test_Script" key="{FD97292A-2393-448B-90C1-9137C99FDFD4}" path="Test_Script.js" />
+		<child name="Script_Exercice_3" key="{7BB8875A-B30F-4127-BC5C-1688E346F264}" path="Script_Exercice_3.js" />
 	</children>
 </Root>
