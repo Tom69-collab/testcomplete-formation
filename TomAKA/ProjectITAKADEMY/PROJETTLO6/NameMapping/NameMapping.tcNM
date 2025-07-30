@@ -308,21 +308,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeELearning" Key="{871B6F5D-DCD4-4931-9DF2-EAEFF5B6FC06}">
+									<Child Name="boutonElearning" Key="{871B6F5D-DCD4-4931-9DF2-EAEFF5B6FC06}">
 										<Image FileName="1438669582" Left="1533" Top="275" Right="1633" Bottom="300" />
 										<TypeInfo Item0="{9012F685-C064-4172-A585-8F7786493098}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;E-LEARNING&apos;]" />
+												<Value Value="xpath=//span[.=&apos;E-LEARNING&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//li[4]/a/span[contains(@class, &apos;black-75&apos;)]" />
+												<Value Value="xpath=//li[4]/a/span[contains(@class, &apos;black-75&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(@href, &apos;e-learning-distanciel&apos;)]/span" />
+												<Value Value="xpath=//a[contains(@href, &apos;e-learning-distanciel&apos;)]/span" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a/span" />
+												<Value Value="xpath=//div[@id=&apos;navbar-items&apos;]/ul/li[4]/a/span" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -1519,7 +1519,7 @@
 				<Child Name="header" Owner="{560AA846-E9F7-463E-89E1-662F5C8CD114}">
 					<Child Name="textnodeDCouvrirLItAkademy" Owner="{D603CD8B-3890-4E22-93E4-727F5151DB21}">
 						<Child Name="linkELearning" Owner="{9EE0279C-CC01-4F27-B75F-5875BCAD1BF8}">
-							<Child Name="textnodeELearning" Owner="{871B6F5D-DCD4-4931-9DF2-EAEFF5B6FC06}" />
+							<Child Name="boutonElearning" Owner="{871B6F5D-DCD4-4931-9DF2-EAEFF5B6FC06}" />
 						</Child>
 						<Child Name="textnodeAdmission" Owner="{7D0D5DDE-ECE7-4617-948D-2166DB364E54}">
 							<Child Name="textnodeAdmission2" Owner="{3D15DCC1-2A36-4CB4-92EA-3267B4365311}" />
