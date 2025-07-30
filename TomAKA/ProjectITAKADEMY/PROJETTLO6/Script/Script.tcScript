@@ -3,6 +3,5 @@
 	<children>
 		<folder name="Formulaire" />
 		<child name="Test_script" key="{E85F18C4-AC4B-416F-BAF3-0644A471DCC3}" path="Test_script.js" />
-		<child name="Unit2" key="{1CCA1EA9-FBE2-49BD-85A6-A7B46C44D184}" path="Unit2.js" />
 	</children>
 </Root>

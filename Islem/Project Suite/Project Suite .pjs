@@ -6,7 +6,7 @@
 	</testItems>
 	<variables key="{09C4EE1C-1775-44EE-BA34-96CEF64DBE9E}" />
 	<analysis key="{358D6C82-D609-4D45-BB29-E1C05D11BE19}" />
-	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
 	</scc>
 </Root>

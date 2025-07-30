@@ -101,6 +101,11 @@
 					<ConnectionInfo FileName="..\..\..\..\..\Classeur1.xlsx" Table="Feuil1$" HasColumnNames="True" />
 				</DefValue>
 			</Variable>
+			<Variable Name="Var2" Type="DB Table" Local="False" Descr="JDD ">
+				<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+					<ConnectionInfo FileName="..\..\..\..\..\..\Downloads\Feuille de calcul sans titre - Feuille 1.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+				</DefValue>
+			</Variable>
 		</Items>
 	</Variables>
 	<Parameters Key="{0BD43FAA-DAC6-4942-8818-35061EABD899}" />
