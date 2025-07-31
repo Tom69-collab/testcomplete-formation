@@ -34,7 +34,7 @@ export default defineConfig({
   },
 
   /* Configure projects for major browsers */
-  projects: [
+ projects: [
   {
     name: 'Google Chrome',
     use: {
